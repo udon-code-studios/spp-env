@@ -22,5 +22,9 @@
 ;; start c++ syntax highlighting for .cuh (CUDA header) files
 (add-to-list 'auto-mode-alist '("\\.cuh\\'" . c++-mode))
 
+;; here are a few edits... :)
+
+;; new comment
+
 ;;
 ;; end of file

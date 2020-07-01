@@ -4,6 +4,7 @@
 ;; Emacs Initialization File
 ;;
 ;; modification history:
+;;  20200630 (LB): added dark terminal setting
 ;;  20200427 (LB): initial version
 ;;
 
@@ -16,15 +17,12 @@
 ;; show cursor position within line
 (column-number-mode 1)
 
-;; start c++ syntax highlighting for .cu (CUDA) files
+;; start c++ syntax highlighting for .cu/.cuh (CUDA) files
 (add-to-list 'auto-mode-alist '("\\.cu\\'" . c++-mode))
-
-;; start c++ syntax highlighting for .cuh (CUDA header) files
 (add-to-list 'auto-mode-alist '("\\.cuh\\'" . c++-mode))
 
-;; here are a few edits... :)
-
-;; new comment
+;; fix colors on dark terminal
+(setq frame-background-mode 'dark)
 
 ;;
 ;; end of file

@@ -1,9 +1,7 @@
 # Welcome to the Subpar Programming Environment
 
-## Installation instructions:
+### Installation instructions:
 
 1. `$ sh install.sh`
 
-## SPP Environment Docs:
-
-subparprogramming.cf
+### [SPP Environment Docs](subparprogramming.cf)

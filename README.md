@@ -4,4 +4,6 @@
 
 1. `$ sh install.sh`
 
-### [SPP Environment Docs](subparprogramming.cf)
+### SPP Environment Variables
+
+### SPP Environment File Hierarchy

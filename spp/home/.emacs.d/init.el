@@ -1,7 +1,6 @@
 ;; file: ~/.emacs.d/init.el
-;; author: Leo Battalora (GitHubID: leo6liu)
 ;;
-;; Emacs Initialization File
+;; emacs initialization file
 ;;
 ;; modification history:
 ;;  20200630 (LB): added dark terminal setting
@@ -22,6 +21,7 @@
 (add-to-list 'auto-mode-alist '("\\.cuh\\'" . c++-mode))
 
 ;; fix colors on dark terminal
+;; comment out the following line if using emacs in a light terminal
 (setq frame-background-mode 'dark)
 
 ;;
